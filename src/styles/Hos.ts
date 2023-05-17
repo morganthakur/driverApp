@@ -1,0 +1,225 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  mainWrapper: {
+    flex: 1,
+    backgroundColor: '#D4FAFC',
+  },
+  headerWrapper: {
+    height: 250,
+    width: '100%',
+    backgroundColor: '#146C94',
+    alignItems: 'center',
+    elevation: 10,
+  },
+  innerWrapper: {
+    alignItems: 'center',
+    borderColor: 'red',
+    borderWidth: 2,
+    height: 80,
+    width: 80,
+    justifyContent: 'center',
+    borderRadius: 10,
+    marginTop: 20,
+  },
+  back: {
+    width: '100%',
+    paddingLeft: 10,
+    marginTop: 20,
+  },
+  mainContent: {
+    flex: 1,
+    marginTop: 20,
+    alignItems: 'center',
+    paddingBottom: 30,
+  },
+  buttonText: {
+    fontSize: 20,
+    color: 'white',
+  },
+  btn: {
+    width: '80%',
+    height: 50,
+    // justifyContent: 'space-around',
+    alignItems: 'center',
+    elevation: 10,
+    borderRadius: 10,
+    flexDirection: 'row',
+  },
+  left: {
+    flex: 1,
+    paddingLeft: 15,
+  },
+  right: {
+    borderLeftColor: 'white',
+    borderLeftWidth: 0.3,
+    flex: 1,
+    justifyContent: 'center',
+    paddingLeft: 20,
+  },
+  coDriver: {
+    marginTop: 20,
+  },
+  DriverBtn: {
+    width: '80%',
+    height: 80,
+    // justifyContent: 'space-around',
+    alignItems: 'center',
+    elevation: 10,
+    borderRadius: 10,
+    flexDirection: 'row',
+  },
+  coDriverleft: {
+    flex: 1.5,
+    paddingLeft: 15,
+  },
+  coDriverRight: {
+    flex: 2,
+  },
+  from: {
+    color: 'white',
+  },
+  input: {
+    width: 60,
+    borderBottomColor: 'white',
+    borderBottomWidth: 1,
+    height: 30,
+  },
+  upper: {
+    paddingBottom: 5,
+  },
+  lower: {
+    flexDirection: 'row',
+    borderTopColor: 'white',
+    alignItems: 'center',
+    borderTopWidth: 0.4,
+  },
+
+  details: {
+    marginTop: 20,
+  },
+  dutyStatusWrapper: {
+    width: '80%',
+    justifyContent: 'center',
+    marginTop: 20,
+  },
+  duty: {
+    width: '100%',
+    justifyContent: 'center',
+    // alignItems: 'center',
+  },
+  dutyBtn: {
+    width: '40%',
+    height: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 10,
+  },
+  dutiesBtn: {
+    width: 150,
+    height: 40,
+    backgroundColor: 'gray',
+    borderRadius: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+    elevation: 10,
+    margin: 5,
+  },
+  dutyText: {
+    color: 'white',
+    fontWeight: '500',
+  },
+  active: {
+    backgroundColor: 'red',
+  },
+  dutiesWrapper: {
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    flex: 1,
+    marginTop: 10,
+  },
+  location: {
+    width: '80%',
+    height: 160,
+    backgroundColor: 'white',
+    elevation: 10,
+    marginTop: 20,
+    borderRadius: 20,
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  locationText: {
+    color: 'black',
+    fontWeight: '600',
+    fontSize: 20,
+  },
+  loactionLeft: {
+    flex: 4,
+    paddingLeft: 20,
+  },
+  loactionRight: {
+    flex: 4,
+  },
+  locationMiddle: {
+    flex: 1,
+  },
+  onDutyWrapper: {
+    width: '80%',
+    height: 160,
+    backgroundColor: 'white',
+    elevation: 10,
+    marginTop: 20,
+    borderRadius: 20,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  onDutyLeft: {
+    flex: 1,
+    width: '100%',
+    alignItems: 'center',
+  },
+  onDutyMiddle: {
+    flex: 2,
+    width: '100%',
+    alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
+  onDutyRight: {
+    flex: 1,
+    width: '100%',
+    alignItems: 'center',
+  },
+  middleOne: {
+    height: 50,
+    width: 50,
+    backgroundColor: 'black',
+    margin: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 5,
+  },
+  rangeWrapper: {
+    width: '80%',
+    height: 20,
+    backgroundColor: 'gray',
+    borderRadius: 10,
+    flexDirection: 'row',
+  },
+  range: {
+    width: '50%',
+    height: '100%',
+    borderRadius: 10,
+  },
+  rangeDrive: {
+    width: '20%',
+    height: '100%',
+    borderRadius: 10,
+  },
+  shifRange: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 10,
+  },
+});
